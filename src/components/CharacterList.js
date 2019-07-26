@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CharacterCard from "./CharacterCard";
-import axios from "axios";
+import axios from "axios"; 
 
 export default function CharacterList(props) {
   const [characters, setCharacters] = useState([]);

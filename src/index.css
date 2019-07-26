@@ -37,4 +37,12 @@ main {
 header h1 {
   text-align: center;
 
+}  
+
+#characterid {
+   display: flex;   
+   width: 25%;
+   flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
